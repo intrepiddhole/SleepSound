@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="favorite_staff_picks_height">230.0dip</dimen>
+    <dimen name="favorite_staff_picks_rope_margin_left">55.0dip</dimen>
+    <dimen name="favorite_staff_picks_rounded_corner_strength">7.0dip</dimen>
+    <dimen name="favorite_staff_picks_side_strength">20.0dip</dimen>
+    <dimen name="favorite_staff_picks_top_strength">84.0dip</dimen>
+</resources>

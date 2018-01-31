@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/more_product_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@android:color/transparent" android:layout_width="@dimen/more_product_layout_image_size" android:layout_height="@dimen/more_product_layout_image_size" android:src="@drawable/icon_rmo" />
+        <TextView android:textSize="@dimen/more_product_layout_font_size" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/more_product_layout_text_margin_top" android:text="@string/more_product_activity_app_name" />
+        <TextView android:textSize="@dimen/more_product_layout_font_size_small" android:textColor="@android:color/black" android:gravity="center" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/more_product_layout_text_margin_top_small" android:text="@string/more_product_activity_app_description" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/favorite_sound_image_size" android:layout_height="wrap_content" android:layout_marginLeft="-7.0dip" android:layout_marginRight="-7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/favorite_custom_dialog_sound_image" android:layout_width="@dimen/favorite_sound_image_size" android:layout_height="@dimen/favorite_sound_image_size" android:layout_marginBottom="@dimen/favorite_fragment_list_view_item_sound_row_image_bottom_margin" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/favorite_custom_dialog_sound_image" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/favorite_custom_dialog_volume_icon" android:layout_width="@dimen/favorite_custom_dialog_volume_icon_size" android:layout_height="@dimen/favorite_custom_dialog_volume_icon_size" android:layout_marginRight="2.0dip" android:src="@drawable/fav_volume_icon" android:layout_centerVertical="true" />
+        <LinearLayout android:id="@+id/favorite_custom_view_subvolume_layout" android:tag="soundSubVolume" android:background="@drawable/sounds_sub_volume" android:layout_width="@dimen/favorite_sound_sub_volume_width" android:layout_height="@dimen/favorite_sound_sub_volume_height" android:layout_toRightOf="@+id/favorite_custom_dialog_volume_icon" android:layout_centerVertical="true">
+            <ImageView android:layout_width="@dimen/favorite_sound_sub_volume_width" android:layout_height="@dimen/favorite_sound_sub_volume_height" android:src="@drawable/sounds_sub_volume_progress" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

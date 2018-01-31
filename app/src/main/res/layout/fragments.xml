@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_main_gradient" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/ad_filler" android:background="#ff092027" android:padding="0.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/adview_height" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@+id/main_graphics_layout" android:background="@drawable/bg_main_gradient" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/ad_filler">
+        <include layout="@layout/relax_scroll_view_graphics_layout" />
+        <FrameLayout android:id="@+id/top_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <fragment android:name="ipnossoft.rma.NavigationFragment" android:id="@+id/navigation" android:layout_width="fill_parent" android:layout_height="@dimen/navigation_bar_height" android:layout_alignParentTop="true" />
+    <View android:background="#ff1d487e" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@+id/navigation" />
+    <fragment android:name="ipnossoft.rma.BottomMenuFragment" android:id="@+id/bottom_menu" android:layout_width="fill_parent" android:layout_height="@dimen/main_layout_control_height" android:layout_above="@+id/ad_filler" />
+    <include android:id="@+id/splash_screen_include" layout="@layout/splash" />
+</RelativeLayout>

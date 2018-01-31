@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainActivity" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:colorControlHighlight">@color/selectable_background_color_lollipop</item>
+        <item name="android:colorPrimaryDark">@color/status_bar_color_lollipop</item>
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Relax" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/RelaxActionBar</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:colorControlHighlight">@color/selectable_background_color_lollipop</item>
+        <item name="android:actionBarTheme">@style/RelaxActionBarTheme</item>
+        <item name="android:colorPrimaryDark">@color/status_bar_color_lollipop</item>
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="actionBarStyle">@style/RelaxActionBar</item>
+        <item name="actionBarTheme">@style/RelaxActionBarTheme</item>
+    </style>
+    <style name="Theme.RelaxTranslucentNoBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:colorControlHighlight">@color/selectable_background_color_lollipop</item>
+        <item name="android:colorPrimaryDark">@color/status_bar_color_lollipop</item>
+        <item name="android:colorAccent">@color/accent_material_dark</item>
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/dialog_widget_color</item>
+        <item name="android:colorAccent">@color/dialog_widget_color</item>
+    </style>
+</resources>

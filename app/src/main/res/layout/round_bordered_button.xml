@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/rounded_bordered_button_background_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ipnossoft.rma.ui.RoundedCornerLayout android:id="@+id/rounded_bordered_button_ripple_layout" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/large_general_font_size" android:textColor="@color/White" android:gravity="center" android:id="@+id/main_label" android:paddingLeft="@dimen/rounded_corner_button_lr" android:paddingTop="@dimen/rounded_corner_button_padding_tb" android:paddingRight="@dimen/rounded_corner_button_lr" android:paddingBottom="@dimen/rounded_corner_button_padding_tb" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text Goes Here" />
+            </ipnossoft.rma.ui.RoundedCornerLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

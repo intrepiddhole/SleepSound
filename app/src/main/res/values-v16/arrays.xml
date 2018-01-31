@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefs_native_media_player_labels">
+        <item>@string/prefs_native_media_player_off</item>
+        <item>@string/prefs_native_media_player_mode1</item>
+        <item>@string/prefs_native_media_player_mode2</item>
+        <item>@string/prefs_native_media_player_mode3</item>
+        <item>@string/prefs_native_media_player_mode4</item>
+        <item>@string/prefs_native_media_player_mode5</item>
+    </string-array>
+    <string-array name="prefs_native_media_player_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

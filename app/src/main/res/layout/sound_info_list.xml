@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/background_beats_information" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/background_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ListView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/scroll_bar_thumb" android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:paddingBottom="@dimen/main_binaural_information_list_divider_height" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+</RelativeLayout>

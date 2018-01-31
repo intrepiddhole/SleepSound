@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/subvolume_seekbar_layout" android:background="@color/sub_volume_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/subvolume_height" android:weightSum="100.0" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/small_general_font_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="end|center" android:id="@+id/label_sound_volume" android:paddingLeft="@dimen/main_layout_control_inter_widget_spacing" android:paddingRight="@dimen/main_layout_control_inter_widget_spacing" android:layout_width="0.0dip" android:layout_height="@dimen/subvolume_height" android:maxWidth="0.0dip" android:maxLines="2" android:layout_weight="@integer/subvolume_text_horizontal_weight" />
+        <SeekBar android:id="@+id/seekbar_sound_volume" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxWidth="0.0dip" android:layout_weight="@integer/subvolume_horizontal_weight" android:splitTrack="false" style="@style/CustomSubvolumeSeekBar" />
+        <RelativeLayout android:id="@+id/spacer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/subvolume_right_spacing_weight" />
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/subvolume_hint_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/subvolume_seekbar_layout">
+        <RelativeLayout android:id="@+id/subvolume_hint_inner_layout" android:background="@color/sub_volume_hint_background_color" android:paddingLeft="@dimen/subvolume_hint_padding_lr" android:paddingRight="@dimen/subvolume_hint_padding_lr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/small_general_font_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/subvolume_hint_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/subvolume_hint" android:layout_centerInParent="true" android:alpha="0.0" />
+        </RelativeLayout>
+        <View android:background="#ff1d487e" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@+id/subvolume_hint_inner_layout" />
+    </RelativeLayout>
+    <View android:background="#ff1d487e" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@+id/subvolume_seekbar_layout" />
+</RelativeLayout>

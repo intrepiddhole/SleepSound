@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/more_product_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/extra_large_general_font_size" android:textColor="#ffeb212e" android:id="@+id/special_offer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/special_offer_percentage_off_now" android:textAllCaps="true" fontPath="fonts/metric_bold.ttf" />
+        <TextView android:textSize="@dimen/small_general_font_size" android:textColor="@color/White" android:id="@+id/textView4" android:background="#ffeb212e" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/special_offer_upgrade_now" android:textAllCaps="true" fontPath="fonts/metric_semibold.ttf" />
+        <ImageView android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clock" />
+        <TextView android:textSize="@dimen/extra_large_general_font_size" android:textColor="@android:color/black" android:gravity="center" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/special_offer_time_ticking" />
+        <TextView android:textSize="@dimen/small_general_font_size" android:textColor="@android:color/black" android:gravity="center" android:id="@+id/special_offer_description" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/special_offer_description" fontPath="fonts/metric_light.ttf" />
+    </LinearLayout>
+</RelativeLayout>

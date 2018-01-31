@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="favorite_fragment_list_view_item_sound_row_image_bottom_margin">-6.0dip</dimen>
+    <dimen name="favorite_fragment_list_view_item_sound_row_margin_lr">-10.0dip</dimen>
+    <dimen name="guided_meditation_playing_duration_margin_top">-20.0dip</dimen>
+    <dimen name="guided_meditation_playing_play_pause_layout_height">262.0dip</dimen>
+    <dimen name="guided_meditation_playing_play_pause_layout_oval">222.0dip</dimen>
+    <dimen name="guided_meditation_playing_play_pause_layout_width">262.0dip</dimen>
+    <dimen name="guided_meditation_playing_play_pause_play_pause_stroke_width">30.0dip</dimen>
+    <dimen name="guided_meditation_playing_title_padding_top">20.0dip</dimen>
+    <dimen name="guided_meditation_stop_meditation_margin_lr">40.0dip</dimen>
+    <dimen name="guided_meditation_stop_meditation_margin_top">10.0dip</dimen>
+    <dimen name="guided_meditation_stop_meditation_padding_lr">30.0dip</dimen>
+    <dimen name="main_layout_control_button_width_play_button_layout">70.0dip</dimen>
+    <dimen name="main_sound_button_text_top_margin">-12.0dip</dimen>
+    <dimen name="more_icon_size">45.0dip</dimen>
+    <dimen name="sound_button_height">96.0dip</dimen>
+    <dimen name="sound_button_label_height">32.0dip</dimen>
+    <dimen name="sound_group_bottom_margin_to_scroll_bar">28.0dip</dimen>
+    <dimen name="sound_group_bottom_spacing">110.0dip</dimen>
+    <dimen name="sound_image_height">77.0dip</dimen>
+    <dimen name="sound_image_width">89.0dip</dimen>
+    <dimen name="sounds_even_top_padding">35.0dip</dimen>
+    <dimen name="sounds_odd_top_padding">70.0dip</dimen>
+    <dimen name="subscribe_premium_guided_category_container_margin_left">-38.0dip</dimen>
+    <dimen name="subscribe_premium_guided_category_margin_top">10.0dip</dimen>
+    <dimen name="subscribe_premium_meditator_height">320.0dip</dimen>
+    <dimen name="subscribe_trial_mountain_margin_top">60.0dip</dimen>
+    <dimen name="main_binaural_information_margin_right">60.0dip</dimen>
+    <dimen name="main_layout_timer_indicator_margin_top">-12.0dip</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="favorite_nb_columns">2</integer>
+    <integer name="favorite_staff_pics_full_on_screen_cells">2</integer>
+    <integer name="more_banner_button_spacer_view_height_weight">15</integer>
+    <integer name="subvolume_horizontal_weight">50</integer>
+    <integer name="subvolume_right_spacing_weight">16</integer>
+    <integer name="subvolume_text_horizontal_weight">34</integer>
+</resources>

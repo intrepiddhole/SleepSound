@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ipnossoft.rma.favorites.StaffPicksFrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/favorite_staff_picks_height" android:layout_marginLeft="@dimen/staff_pick_mask_padding_lr" android:layout_marginTop="@dimen/favorite_staff_picks_margin_top" android:layout_marginRight="@dimen/staff_pick_mask_padding_lr" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/favorite_staff_picks_sky_image" android:layout_width="fill_parent" android:layout_height="@dimen/favorite_staff_picks_height" android:layout_marginTop="@dimen/favorite_staff_picks_sky_margin_top" android:src="@drawable/favorite_bg_00" android:scaleType="fitXY" />
+        <ipnossoft.rma.ui.scrollview.DisableTouchScrollView android:id="@+id/favorite_staff_picks_distant_mountains" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/favorite_staff_picks_distant_mountains_margin_bottom" android:layout_alignParentBottom="true">
+            <ImageView android:id="@+id/favorite_staff_picks_distant_mountains_image" android:layout_width="@dimen/favorite_staff_picks_width_distant_mountains" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </ipnossoft.rma.ui.scrollview.DisableTouchScrollView>
+        <ipnossoft.rma.ui.scrollview.DisableTouchScrollView android:layout_gravity="bottom" android:id="@+id/favorite_staff_picks_lake_mountains" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/favorite_staff_picks_lake_mountains_height" android:layout_marginBottom="@dimen/favorite_staff_picks_lake_mountains_margin_bottom" android:layout_alignParentBottom="true">
+            <ImageView android:id="@+id/favorite_staff_picks_lake_mountains_image" android:layout_width="@dimen/favorite_staff_picks_width_lake_mountains" android:layout_height="wrap_content" />
+        </ipnossoft.rma.ui.scrollview.DisableTouchScrollView>
+        <ipnossoft.rma.ui.scrollview.StaffPicksHorizontalScrollView android:id="@+id/staff_pick_horizontal_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/staff_pick_horizontal_scroll_view_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip" />
+        </ipnossoft.rma.ui.scrollview.StaffPicksHorizontalScrollView>
+    </ipnossoft.rma.favorites.StaffPicksFrameLayout>
+</RelativeLayout>

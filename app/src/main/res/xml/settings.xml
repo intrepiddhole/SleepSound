@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ipnossoft.rma.preferences.ResetVolumePreference android:persistent="false" android:title="@string/prefs_reset_sounds_title" android:key="volume" android:summary="@string/prefs_reset_sounds_summary" />
+    <ListPreference android:persistent="true" android:entries="@array/prefs_native_media_player_labels" android:title="@string/prefs_native_media_player_title" android:key="useNativePlayer" android:summary="@string/prefs_native_media_player_summary" android:defaultValue="0" android:entryValues="@array/prefs_native_media_player_values" />
+    <ipnossoft.rma.preferences.ActivationPreference android:title="@string/activation_preference_activation_code" android:key="activationCode" android:summary="@string/activation_preference_enter_activation_code" />
+    <ipnossoft.rma.ui.TwoLinePreference android:title="@string/show_walkthrough_settings" android:key="showWalkthrough" />
+    <ipnossoft.rma.preferences.UpgradeSubscriptionPreference android:title="@string/activation_preference_upgrade_subscription" android:key="upgradeSubscription" />
+    <ListPreference android:persistent="true" android:entries="@array/prefs_audio_focus_labels" android:title="@string/prefs_audio_focus_title" android:key="useAudioFocus" android:summary="@string/prefs_audio_focus_summary" android:defaultValue="1" android:entryValues="@array/prefs_audio_focus_values" />
+</PreferenceScreen>

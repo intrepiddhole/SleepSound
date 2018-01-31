@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="favorite_nb_columns">2</integer>
+    <integer name="favorite_staff_pics_full_on_screen_cells">3</integer>
+    <integer name="more_banner_button_spacer_view_height_weight">30</integer>
+</resources>

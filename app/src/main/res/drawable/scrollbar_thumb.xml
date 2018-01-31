@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/scroll_bar_thumb" />
+    <stroke android:width="0.0dip" android:color="@android:color/transparent" />
+    <size android:height="4.0dip" android:width="40.0dip" />
+</shape>

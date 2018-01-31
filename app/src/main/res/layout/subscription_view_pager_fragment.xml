@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:autofit="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@+id/subscription_view_pager_text_container" android:background="@color/mountain_bottom_color" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/subscribe_page_text_container_height" android:layout_alignParentBottom="true">
+        <me.grantland.widget.AutofitTextView android:textSize="@dimen/subscribe_page_small_title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/subscription_view_pager_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Over 54 meditations and life coach sessions*" android:maxLines="1" />
+        <me.grantland.widget.AutofitTextView android:textSize="@dimen/subscribe_page_main_title" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/subscription_view_pager_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Improve your well-being" android:maxLines="1" android:layout_below="@+id/subscription_view_pager_text1" fontPath="fonts/metric_regular.ttf" />
+        <me.grantland.widget.AutofitTextView android:textSize="@dimen/subscribe_small_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/subscription_view_pager_subtext1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Improve your well-being" android:maxLines="1" android:layout_below="@+id/subscription_view_pager_text2" fontPath="fonts/metric_regular.ttf" />
+    </RelativeLayout>
+</RelativeLayout>

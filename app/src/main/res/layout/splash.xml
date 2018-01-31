@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_main_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/splash_screen_background" android:layout_width="@dimen/stars_width" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/splash_screen_light_bottom_margin" android:src="@drawable/bg_main" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+        <View android:id="@+id/view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="0.0dip" android:layout_weight="25.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="0.0dip" android:layout_weight="75.0">
+            <ImageView android:id="@+id/splash_screen_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/splash_screen_logo_padding" android:layout_marginRight="@dimen/splash_screen_logo_padding" android:src="@drawable/splashscreen_logo" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@+id/splash_screen_moon" android:layout_width="@dimen/background_light_image_view_width" android:layout_height="@dimen/background_light_image_view_height" android:layout_marginBottom="@dimen/splash_screen_light_bottom_margin" android:src="@drawable/bg_moon" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:id="@+id/splash_screen_mountains" android:layout_width="fill_parent" android:layout_height="@dimen/parallax_mountain_height" android:src="@drawable/second_level_parallax_mountains" android:scaleType="centerCrop" />
+                <View android:id="@+id/mountains_bottom_filler_view" android:background="#ff0f3b51" android:layout_width="fill_parent" android:layout_height="@dimen/splash_screen_mountain_bottom_margin" android:layout_marginTop="-1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@+id/splash_screen_grass" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_menu_height" android:src="@drawable/bottom_menu" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

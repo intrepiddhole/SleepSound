@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/btn" android:layout_width="fill_parent" android:layout_height="@dimen/timer_button_layout_height" android:layout_marginLeft="@dimen/timer_button_layout_margin_lr" android:layout_marginTop="@dimen/timer_button_layout_margin_top" android:layout_marginRight="@dimen/timer_button_layout_margin_lr">
+        <RelativeLayout android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/large_general_font_size" android:textColor="@color/White" android:gravity="center" android:id="@+id/main_label" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5 minutes" />
+        </RelativeLayout>
+        <ipnossoft.rma.ui.RoundedCornerLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fragment_list_view_item_padding_lr" android:paddingTop="@dimen/list_element_vertical_spacing" android:paddingRight="@dimen/fragment_list_view_item_padding_lr" android:paddingBottom="@dimen/list_element_vertical_spacing" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/large_general_font_size" android:textColor="@color/White" android:id="@+id/favorite_list_no_favorites_cell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_view_header_text_left_margin" android:text="@string/favorites_tutorial_no_favorites" />
+    <TextView android:textSize="@dimen/small_general_font_size" android:textColor="@color/list_view_item_description_color" android:id="@+id/favorite_list_no_favorites_cell_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_view_header_text_left_margin" android:layout_marginTop="3.0dip" android:text="@string/favorites_tutorial_please_use_plus" />
+</LinearLayout>

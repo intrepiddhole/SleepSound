@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="favorite_nb_columns">1</integer>
+    <integer name="favorite_staff_pics_full_on_screen_cells">2</integer>
+    <integer name="more_banner_button_spacer_view_height_weight">0</integer>
+    <integer name="subvolume_horizontal_weight">60</integer>
+    <integer name="subvolume_right_spacing_weight">5</integer>
+    <integer name="subvolume_text_horizontal_weight">35</integer>
+    <integer name="blog_banner_vertical_weight">360</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
+</resources>

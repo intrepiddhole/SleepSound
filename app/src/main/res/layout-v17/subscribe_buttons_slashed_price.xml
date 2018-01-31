@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/subscription_tiers" android:background="@color/mountain_bottom_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/subscribe_3rd_tier_container_height">
+        <RelativeLayout android:id="@+id/subscribe_button_tier3" android:background="#ffcc2072" android:layout_width="fill_parent" android:layout_height="@dimen/subscribe_3rd_tier_height" android:layout_marginTop="20.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/subscribe_3rd_tier_font_size" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/subscribe_tier3_duration_slashed" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscription_limited_time_offer" fontPath="fonts/metric_medium.ttf" />
+                <TextView android:textSize="@dimen/subscribe_3rd_tier_font_size" android:textColor="@color/timer_text_stop_text" android:gravity="center" android:id="@+id/subscribe_promo_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscription_lifetime_access" fontPath="fonts/metric_medium.ttf" />
+                <TextView android:textSize="@dimen/subscribe_3rd_tier_font_size" android:textColor="@color/timer_text_stop_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/subscribe_tier3_price_slashed" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/subscription_offer_12_months_for" fontPath="fonts/metric_medium.ttf" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/subscribe_save_badge" android:background="@drawable/subscription_save_background" android:layout_width="@dimen/subscribe_3rd_tier_save_size" android:layout_height="@dimen/subscribe_3rd_tier_save_size" android:layout_marginTop="@dimen/subscribe_save_badge_margin_top" android:layout_marginRight="@dimen/subscribe_3rd_tier_save_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/subscribe_3rd_tier_save_margin_right" android:layout_alignParentEnd="true">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@+id/subscribe_save_badge_top_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="@string/subscribe_tier3_save" fontPath="fonts/metric_medium.ttf" />
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@+id/subscribe_save_badge_bottom_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:text="66%" android:includeFontPadding="false" fontPath="fonts/metric_medium.ttf" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="#ff043a55" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_gravity="center" android:id="@+id/subscribe_button_tier2" android:background="#ff467fc5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/subscribe_button_font_size" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/subscribe_tier2_price_duration" android:layout_width="fill_parent" android:layout_height="@dimen/subscribe_other_tier_height" android:text="@string/subscription_offer_3_months_for" fontPath="fonts/metric_semibold.ttf" />
+    </RelativeLayout>
+    <View android:background="#ff043a55" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@+id/subscribe_button_tier1" android:background="#ff467fc5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/subscribe_button_font_size" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/subscribe_tier1_price_duration" android:layout_width="fill_parent" android:layout_height="@dimen/subscribe_other_tier_height" android:text="@string/subscription_offer_1_month_for" fontPath="fonts/metric_semibold.ttf" />
+    </RelativeLayout>
+    <View android:background="#ff446388" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textStyle="normal" android:textColor="@color/White" android:id="@+id/button4" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/restore_purchase_height" android:text="@string/restore_purchase" android:onClick="onRestorePurchaseClick" android:textAllCaps="false" />
+</LinearLayout>

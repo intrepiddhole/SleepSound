@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/main_binaural_information_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_binaural_information_margin_lr" android:minHeight="@dimen/main_binaural_information_height" android:layout_alignParentLeft="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_vertical" android:id="@+id/sound_info_bar_information_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/sound_info_bar_button" android:layout_alignParentLeft="true">
+                <TextView android:textSize="@dimen/extra_large_general_font_size" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/sound_info_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_activity_isochronic_tones" />
+                <TextView android:textSize="@dimen/small_general_font_size" android:textColor="@android:color/white" android:id="@+id/sound_info_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_activity_isochronic_no_headphones_required" android:layout_below="@+id/sound_info_bar_title" android:alpha="0.5" />
+            </RelativeLayout>
+            <ipnossoft.rma.ui.button.RoundBorderedButton android:id="@+id/sound_info_bar_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_binaural_information_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:text="@string/learn_more" app:textSize="@dimen/small_general_font_size" app:backgroundDrawable="@drawable/sound_info_bg" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

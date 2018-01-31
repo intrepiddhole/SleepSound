@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="ipnossoft.rma.free" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="false" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="ipnossoft.rma.free.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="ipnossoft.rma.free.permission.C2D_MESSAGE"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/app_label" android:largeHeap="true" android:name="ipnossoft.rma.RelaxMelodiesAppFree" android:screenOrientation="portrait" android:theme="@style/Theme.RelaxTranslucentNoBar">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTop" android:name="ipnossoft.rma.RelaxMelodiesActivityFree" android:screenOrientation="portrait" android:theme="@style/Theme.RelaxTranslucentNoBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:label="@string/app_label" android:launchMode="singleTop" android:name="ipnossoft.rma.MainActivityFree" android:screenOrientation="portrait" android:theme="@style/MainActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter android:label="@string/play">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="play" android:scheme="relaxmelodies"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ipnossoft.rma.AdWebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Relax"/>
+        <activity android:launchMode="singleTop" android:name="ipnossoft.rma.upgrade.SubscriptionActivity" android:screenOrientation="portrait" android:theme="@style/Theme.RelaxTranslucentNoBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.InterstitialAdActivity"/>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"/>
+        <receiver android:exported="true" android:name="ipnossoft.rma.util.ReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="ipnossoft.rma.util.GlideConfiguration" android:value="GlideModule"/>
+        <activity android:name="ipnossoft.rma.ui.soundinfo.BinauralInfoActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Relax"/>
+        <activity android:name="ipnossoft.rma.ui.soundinfo.IsochronicInfoActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Relax"/>
+        <activity android:name="ipnossoft.rma.web.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Relax"/>
+        <activity android:name="ipnossoft.rma.web.NewsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Relax"/>
+        <activity android:name="ipnossoft.rma.preferences.ActionBarPreferenceActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Relax"/>
+        <activity android:name="ipnossoft.rma.ui.tutorial.TutorialActivity" android:screenOrientation="portrait" android:theme="@style/TutorialActivity"/>
+        <activity android:launchMode="singleTop" android:name="ipnossoft.rma.upgrade.SubscriptionTrialActivity" android:screenOrientation="portrait" android:theme="@style/Theme.RelaxTranslucentNoBar"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:exported="false" android:label="@string/service_name" android:name="ipnossoft.rma.media.SoundService"/>
+        <service android:name="ipnossoft.rma.KillBackgroundSoundNotificationService"/>
+        <receiver android:enabled="true" android:name="ipnossoft.rma.media.CustomHeadsetBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.AudioManager.ACTION_AUDIO_BECOMING_NOISY"/>
+                <action android:name="android.intent.action.HEADSET_PLUG"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="ipnossoft.rma.media.CustomSoundServiceNotificationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="RELAX_MELODIES_CUSTOM_NOTIF_INTENT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="ipnossoft.rma.free"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ipnossoft.rma.free.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity"/>
+        <activity android:name="com.ipnossoft.api.soundlibrary.TestActivity"/>
+        <activity android:name="com.ipnossoft.api.featuremanager.assets.TestActivity"/>
+        <activity android:name="com.ipnossoft.api.httputils.assets.TestActivity"/>
+    </application>
+</manifest>

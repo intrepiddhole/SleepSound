@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="favorite_staff_picks_height">230.0dip</dimen>
+    <dimen name="favorite_staff_picks_rope_margin_left">54.0dip</dimen>
+</resources>

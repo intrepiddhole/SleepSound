@@ -1,0 +1,449 @@
+[
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.2,
+          "soundId": "ipnossoft.rma.sounds.sound1"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound56"
+        },
+        {
+          "volume": 0.3,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound110"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_outdoor_lullaby",
+    "imageResourceEntryName": "brahmslullaby_normal",
+    "selectedImageResourceEntryName": "brahmslullaby_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.3,
+          "soundId": "ipnossoft.rma.sounds.sound28"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound65"
+        },
+        {
+          "volume": 0.2,
+          "soundId": "ipnossoft.rma.sounds.sound84"
+        },
+        {
+          "volume": 0.4,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_afternoon_on_the_balcony",
+    "imageResourceEntryName": "windchimes_normal",
+    "selectedImageResourceEntryName": "windchimes_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound84"
+        },
+        {
+          "volume": 0.5,
+          "soundId": "ipnossoft.rma.sounds.sound101"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound121"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound112"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound23"
+        },
+        {
+          "volume": 0.75,
+          "soundId": "ipnossoft.rma.sounds.sound57"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound88"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_downtown",
+    "imageResourceEntryName": "cityambience_normal",
+    "selectedImageResourceEntryName": "cityambience_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound13"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound19"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound93"
+        },
+        {
+          "volume": 0.75,
+          "soundId": "ipnossoft.rma.sounds.sound96"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_space_journey",
+    "imageResourceEntryName": "jupiter_normal",
+    "selectedImageResourceEntryName": "jupiter_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.5,
+          "soundId": "ipnossoft.rma.sounds.sound26"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound66"
+        },
+        {
+          "volume": 0.3,
+          "soundId": "ipnossoft.rma.sounds.sound73"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound83"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound112"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound113"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound121"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound84"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_city_rain",
+    "imageResourceEntryName": "urbanrain_normal",
+    "selectedImageResourceEntryName": "urbanrain_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound2"
+        },
+        {
+          "volume": 0.75,
+          "soundId": "ipnossoft.rma.sounds.sound59"
+        },
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 0.15,
+          "soundId": "ipnossoft.rma.sounds.sound72"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound118"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_by_the_sea",
+    "imageResourceEntryName": "ocean_normal",
+    "selectedImageResourceEntryName": "ocean_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.2,
+          "soundId": "ipnossoft.rma.sounds.sound1"
+        },
+        {
+          "volume": 0.3,
+          "soundId": "ipnossoft.rma.sounds.sound14"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound16"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound79"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound99"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound120"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound76"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_camping_by_the_river",
+    "imageResourceEntryName": "campfire_normal",
+    "selectedImageResourceEntryName": "campfire_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.2,
+          "soundId": "ipnossoft.rma.sounds.sound1"
+        },
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound99"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound90"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound97"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_river_sunset",
+    "imageResourceEntryName": "river_normal",
+    "selectedImageResourceEntryName": "river_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.3,
+          "soundId": "ipnossoft.rma.sounds.sound1"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound27"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound56"
+        },
+        {
+          "volume": 0.75,
+          "soundId": "ipnossoft.rma.sounds.sound92"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_deep_meditation",
+    "imageResourceEntryName": "monkchant_normal",
+    "selectedImageResourceEntryName": "monkchant_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound1"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound49"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound56"
+        },
+        {
+          "volume": 0.2,
+          "soundId": "ipnossoft.rma.sounds.sound65"
+        },
+        {
+          "volume": 0.4,
+          "soundId": "ipnossoft.rma.sounds.sound101"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_medieval_day",
+    "imageResourceEntryName": "medieval_normal",
+    "selectedImageResourceEntryName": "medieval_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound2"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound3"
+        },
+        {
+          "volume": 0.75,
+          "soundId": "ipnossoft.rma.sounds.sound59"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound69"
+        },
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound111"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_asian_sea",
+    "imageResourceEntryName": "flute_normal",
+    "selectedImageResourceEntryName": "flute_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.5,
+          "soundId": "ipnossoft.rma.sounds.sound63"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound64"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound10"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_underwater_odyssey",
+    "imageResourceEntryName": "immersed_normal",
+    "selectedImageResourceEntryName": "immersed_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound1"
+        },
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 0.4,
+          "soundId": "ipnossoft.rma.sounds.sound53"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound119"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_great_outdoors",
+    "imageResourceEntryName": "forest_normal",
+    "selectedImageResourceEntryName": "forest_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound14"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound74"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound78"
+        },
+        {
+          "volume": 0.1,
+          "soundId": "ipnossoft.rma.sounds.sound111"
+        },
+        {
+          "volume": 0.5,
+          "soundId": "ipnossoft.rma.sounds.sound120"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_at_the_cottage",
+    "imageResourceEntryName": "lappingwater_normal",
+    "selectedImageResourceEntryName": "lappingwater_selected"
+  },
+  {
+    "soundSelection": {
+      "trackInfos": [
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound12"
+        },
+        {
+          "volume": 0.45,
+          "soundId": "ipnossoft.rma.sounds.sound98"
+        },
+        {
+          "volume": 1.0,
+          "soundId": "ipnossoft.rma.sounds.sound113"
+        },
+        {
+          "volume": 0.25,
+          "soundId": "ipnossoft.rma.sounds.sound67"
+        },
+        {
+          "volume": 0.75,
+          "soundId": "ipnossoft.rma.sounds.sound102"
+        }
+      ]
+    },
+    "labelResourceId": "favorite_staff_pick_camping_rain",
+    "imageResourceEntryName": "rainontent_normal",
+    "selectedImageResourceEntryName": "rainontent_selected"
+  }
+]

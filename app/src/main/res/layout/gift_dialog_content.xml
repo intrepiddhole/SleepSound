@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@+id/gift_dialog_message" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gift_dialog_message" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginRight="0.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="65.0dip" android:src="@drawable/tibetan_singing_bowls_normal" />
+            <TextView android:textSize="@dimen/small_general_font_size" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sound_label_125" android:layout_weight="1.0" fontPath="fonts/metric_semibold.ttf" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="65.0dip" android:src="@drawable/joy_normal" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/small_general_font_size" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sound_label_126" android:layout_weight="1.0" fontPath="fonts/metric_semibold.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

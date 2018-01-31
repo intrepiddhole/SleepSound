@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.quietlycoding.android.picker.NumberPickerButton android:textSize="40.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@+id/increment" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="+" fontPath="fonts/metric_light.ttf" />
+        <View android:id="@+id/top_separator" android:background="@color/relax_dialog_button_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@+id/increment" />
+        <EditText android:textSize="30.0sp" android:textColor="@android:color/primary_text_light" android:gravity="center" android:id="@+id/timepicker_input" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="60.0dip" android:singleLine="true" android:layout_below="@+id/top_separator" style="?android:attr/textAppearanceLargeInverse" />
+        <View android:id="@+id/bottom_separator" android:background="@color/relax_dialog_button_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@+id/timepicker_input" />
+        <com.quietlycoding.android.picker.NumberPickerButton android:textSize="40.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@+id/decrement" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="-" android:layout_below="@+id/bottom_separator" fontPath="fonts/metric_light.ttf" />
+    </RelativeLayout>
+</merge>

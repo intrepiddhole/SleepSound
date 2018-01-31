@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00000000" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ipnossoft.rma.ui.AutoResizeTwoLineTextView android:textColor="#ffffffff" android:gravity="center|top" android:id="@+id/brainwave_sound_text_view" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/sound_button_label_height" android:text="Dreams" android:maxLines="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" fontPath="fonts/metric_regular.ttf" />
+    <RelativeLayout android:id="@+id/brainwave_rope_and_sound_layout" android:background="#00000000" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@+id/brainwave_sound_text_view" android:layout_centerHorizontal="true">
+        <ipnossoft.rma.ui.button.CustomSelectableButton android:id="@+id/brainwave_sound_image_view" android:background="@android:color/transparent" android:clickable="false" android:layout_width="@dimen/brainwave_image_width" android:layout_height="@dimen/brainwave_image_height" android:layout_marginTop="-2.0dip" android:src="@drawable/binaural4hz_normal" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:clickable="false" android:layout_width="@dimen/main_sound_button_rope_width" android:layout_height="fill_parent" android:src="@drawable/rope_normal" android:scaleType="fitXY" android:layout_above="@+id/brainwave_sound_image_view" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
